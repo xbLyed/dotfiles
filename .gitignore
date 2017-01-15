@@ -1,0 +1,13 @@
+#Ignore all the plugins and spelling
+
+
+#Ignore log files and such
+!mpd/.mpd/mpd.conf
+mpd/.mpd/*
+ncmpcpp/.ncmpcpp/*.log
+*.swp
+
+#Transmission log files
+transmission/.config/transmission/resume/*
+transmission/.config/transmission/torrents/*
+transmission/.config/transmission/blocklists/*
