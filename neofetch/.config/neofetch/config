@@ -14,7 +14,7 @@ print_info() {
     info underline
 
     info "OS" distro
-    info "Model" model
+    # info "Model" model
     info "Kernel" kernel
     info "Uptime" uptime
     info "Packages" packages
@@ -28,7 +28,7 @@ print_info() {
     info "Terminal" term
     info "Terminal Font" term_font
     info "CPU" cpu
-    info "GPU" gpu
+    # info "GPU" gpu
     info "Memory" memory
 
     # info "CPU Usage" cpu_usage

@@ -34,7 +34,7 @@ URxvt.keysym.M-u: perl:url-select:select_next
 ! THEME
 
 URxvt.background: #77687f
-URxvt.foreground: #48404d
+URxvt.foreground: #ffffff
 
 URxvt*color0: #d5c8b2
 URxvt*color1: #c4b5a2

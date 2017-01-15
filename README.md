@@ -1,6 +1,8 @@
 xbLyed's dotfiles
 =====================
 
+![desktop](http://i.imgur.com/K2rvc6Y.png)
+
 ##Info
 * Window Manager - Openbox
 * Term Emu - urxvt

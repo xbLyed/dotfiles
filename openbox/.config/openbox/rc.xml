@@ -41,7 +41,7 @@
   </placement>
   <theme>
     <name>colorbamboo</name>
-    <titleLayout>NLIMC</titleLayout>
+    <titleLayout>LIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -224,9 +224,9 @@
       </action>
     </keybind>
     <keybind key="W-R">
-        <action name="Execute">
-            <command>rofi -show run</command>
-        </action>
+      <action name="Execute">
+        <command>rofi -show run</command>
+      </action>
     </keybind>
     <keybind key="S-A-Left">
       <action name="SendToDesktopLeft">
