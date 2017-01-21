@@ -10,6 +10,7 @@ export LANG=C
 # See this wiki page for more info:
 # https://github.com/dylanaraps/neofetch/wiki/Customizing-Info
 print_info() {
+    info line_break
     info title
     info underline
 
@@ -19,7 +20,8 @@ print_info() {
     info "Uptime" uptime
     info "Packages" packages
     info "Shell" shell
-    info "Resolution" resolution
+    info "Font" font
+    # info "Resolution" resolution
     info "DE" de
     info "WM" wm
     info "WM Theme" wm_theme
@@ -192,7 +194,7 @@ cpu_cores="logical"
 # Example:
 # on:  'Intel i7-6500U (4) @ 3.1GHz [27.2°C]'
 # off: 'Intel i7-6500U (4) @ 3.1GHz'
-cpu_temp="off"
+cpu_temp="on"
 
 
 # GPU
@@ -486,7 +488,7 @@ disk_display="off"
 # Flag:     --image
 #
 # NOTE: Change this to 'wallpaper', '/path/to/img' or /path/to/dir/' to enable image mode. You can also launch neofetch with '--image wallpaper' and etc.
-image_source="ascii"
+image_source="wallpaper"
 
 # Thumbnail directory
 #
