@@ -14,9 +14,9 @@ xbLyed's dotfiles
 * Editor - Vim
 
 #How to
-Use GNU Stow to unpack the folders, and it will symlink them to the correct location. This is achieved with the following command:
+Use [GNU Stow](https://www.gnu.org/software/stow/manual/stow.html) to unpack the folders, and it will symlink them to the correct location. This is achieved with the following command:
 
-    `stow config`
+    stow config
     
 By default this will unpack to the folder above the current one, so the repo should be cloned to the home directory.
 
