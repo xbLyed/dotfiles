@@ -1,4 +1,5 @@
 bash ~/.wallpapers/wp_init.sh &
+wpg -t &
 volumeicon &
 compton --config ~/.config/compton.conf -b &
 tint2 &

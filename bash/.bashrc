@@ -39,9 +39,12 @@ PS1='[\W]\$ '
 BROWSER=/usr/bin/firefox
 EDITOR=/usr/bin/nano
 
+# Color from wpgtk
+wpg -t
+
 # Neofetch
 if [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; then
   true
 else
-  neofetch --image wallpaper --crop_offset east
+  neofetch --w3m --source /home/xblyed/Descargas/qRSIGmA.png --image_size 42%
 fi
