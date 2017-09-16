@@ -46,5 +46,5 @@ wpg -t
 if [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; then
   true
 else
-  neofetch --w3m --source /home/xblyed/Descargas/qRSIGmA.png --image_size 42%
+  neofetch --w3m --source /home/xblyed/Descargas/fsociety-icon.png --crop_offset=center --image_size 45%
 fi

@@ -1,18 +1,13 @@
-xbLyed's dotfiles
-=====================
+# xbLyed's dotfiles
+Just my personal dotfiles.
 
-![desktop](http://i.imgur.com/K2rvc6Y.png)
+
+## Preview
+![desktop](http://i.imgur.com/5tlIr3U.png)
 
 
 ##Info
-* Window Manager - Openbox
-* Term Emu - urxvt
-* Launcher - Rofi
-* Bar - Tint2
-* Login - LightDM
-* Font - Input
-* Composite Manager - Compton
-* Editor - Vim
+Moved to a (even more) minimalistic setup since I am in a Virtual Machine. Theme and colors are from [wpgtk](https://github.com/deviantfero/wpgtk) for a quick change.
 
 
 #How to
