@@ -4,7 +4,7 @@ Just my personal dotfiles.
 
 ## Preview
 ![desktop](http://i.imgur.com/5tlIr3U.png)
-
+Today wallpaper is Darlene from Mr. Robot. Enjoy, you get to see her!
 
 ##Info
 Moved to a (even more) minimalistic setup since I am in a Virtual Machine. Theme and colors are from [wpgtk](https://github.com/deviantfero/wpgtk) for a quick change.
