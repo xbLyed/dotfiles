@@ -1,9 +1,14 @@
 #!/bin/bash
-# Install the app first in the mobile phone, then create a device link
-# See signal-cli wiki in github for more info. Remember to give it +x.
+# Install the app first in the mobile phone, then create a device link.
+# See signal-cli wiki in github for more info.
+# Remember to give it +x. Set SIGNALNUM varible in /etc/environment.
+# Lastly symlink the signal-cli bin in a PATH location like $HOME/.bin
+#
 # Initial script stolen from https://github.com/frnsys, cheers to him.
 #
 # to send an attachment, use `-a /path/to/file`
+
+source /etc/environment
 
 MSG=${1:-$(</dev/stdin)}
 signal-cli -u ${SIGNALNUM} send ${SIGNALNUM} -m "$MSG"

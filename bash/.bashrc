@@ -14,6 +14,9 @@ if [ -d "$HOME/.bin" ] ; then
   PATH="$PATH:$HOME/.bin"
 fi
 
+# Load variables
+source /etc/environment
+
 # ================================================
 # Aliases
 # ================================================
@@ -28,7 +31,7 @@ alias p3="sudo pip3 install"
 
 # Programas o scripts
 alias tiempo="curl wttr.in/Sevilla"
-alias signal-cli="$HOME/Descargas/signal-cli-0.5.6/"
+# alias signal="$HOME/Descargas/signal-cli-0.5.6/bin/./signal-cli" # Desactivar si se añade a $HOME/.bin
 
 # Folders and config files
 alias d="cd ~/dotfiles"
