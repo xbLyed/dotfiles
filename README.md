@@ -5,8 +5,8 @@ Just my personal dotfiles.
 ![desktop](http://i.imgur.com/5tlIr3U.png)
 
 ## Info
-Moved to a (even more) minimalistic visual setup since I am in a Virtual Machine. Theme and colors are from [wpgtk](https://github.com/deviantfero/wpgtk) 
-for a quick change. Stolen dots have (or should have) credits inside. Some things are messy, apologies for that.
+Moved to an (even more) minimalistic visual setup since I am in a Virtual Machine now. Theme and colors are from 
+[wpgtk](https://github.com/deviantfero/wpgtk) for a quick change. Some things are messy, so apologies for that.
 
 
 ## How to
@@ -19,3 +19,4 @@ By default this will unpack to the folder above the current one, so the repo sho
 
 ## Sources
 Wallpapers - [Here](http://imgur.com/a/8dlRM) is a list of the wallpapers I commonly use.
+Scripts - Stolen dots have (or should have) credits inside. 

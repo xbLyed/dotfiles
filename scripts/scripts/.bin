@@ -1,9 +1,0 @@
-#!/bin/bash
-# Install the app first in the mobile phone, then create a device link
-# See signal-cli wiki in github for more info.
-# Initial script stolen from https://github.com/frnsys, cheers to him.
-#
-# to send an attachment, use `-a /path/to/file`
-
-MSG=${1:-$(</dev/stdin)}
-signal-cli -u ${SIGNALNUM} send ${SIGNALNUM} -m "$MSG"
