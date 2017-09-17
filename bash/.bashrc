@@ -9,6 +9,11 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Paths for custom bins and scripts
+if [ -d "$HOME/.bin" ] ; then
+  PATH="$PATH:$HOME/.bin"
+fi
+
 # ================================================
 # Aliases
 # ================================================
@@ -23,9 +28,9 @@ alias p3="sudo pip3 install"
 
 # Programas o scripts
 alias tiempo="curl wttr.in/Sevilla"
-alias tg="/home/xblyed/Documentos/Telegram/Telegram"
+alias signal-cli="$HOME/Descargas/signal-cli-0.5.6/"
 
-# Paths
+# Folders and config files
 alias d="cd ~/dotfiles"
 alias ls='ls --color=auto'
 alias xup="xrdb ~/.Xresources"
